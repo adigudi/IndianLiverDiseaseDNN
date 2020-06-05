@@ -19,3 +19,4 @@ model.fit(X, Y, epochs=150, batch_size=10)
 # evaluate the keras model
 _, accuracy = model.evaluate(X, Y)
 print('Accuracy: %.2f' % (accuracy*100))
+
